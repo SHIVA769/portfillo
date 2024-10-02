@@ -19,11 +19,11 @@ const Contact = () => {
       setLoading(true);
       const toastId = toast.loading("send email");
 
-       emailjs.init("enter your code");
+       emailjs.init("XqczAsRaaoS-WFKuz");
      await  emailjs
       .send(
-        "",
-        "",
+        "service_jssysgq",
+        "template_opfirvr",
         {
           from_name: name,
           to_name: 'Arshdeep singh',
