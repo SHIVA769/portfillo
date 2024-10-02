@@ -22,8 +22,8 @@ const Contact = () => {
        emailjs.init("enter your code");
      await  emailjs
       .send(
-        "service_an6aejp",
-        "template_6qlvoh7",
+        "",
+        "",
         {
           from_name: name,
           to_name: 'Arshdeep singh',
