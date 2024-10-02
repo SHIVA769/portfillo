@@ -19,16 +19,16 @@ const Contact = () => {
       setLoading(true);
       const toastId = toast.loading("send email");
 
-       emailjs.init("SPnpGOyK2Nq4SZDUI");
+       emailjs.init("enter your code");
      await  emailjs
       .send(
         "service_an6aejp",
         "template_6qlvoh7",
         {
           from_name: name,
-          to_name: 'Dilpreet Sandhu',
+          to_name: 'Arshdeep singh',
           from_email: email,
-          to_email: 'dilpreet66770@gmail.com',
+          to_email: 'enter your email',
           message: message,
         },
         
